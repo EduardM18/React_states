@@ -1,5 +1,4 @@
 import { Component } from "react";
-import "./style.css";
 import Tabs from "../../main_components/tabs";
 
 
