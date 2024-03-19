@@ -1,0 +1,42 @@
+#accordions_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap:3px;
+}
+#accordion_heading{
+    font-size:50px;
+    font-weight:300;
+    text-align: center;
+}
+#accordion_container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.accordion_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height:50px;
+    border:2px solid black;
+    font-size:25px;
+}
+.accordion_content{
+    display: flex;
+    align-items: center;
+    width:88%;
+    height:50px;
+    border-bottom:2px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    font-size:25px;
+    padding-left:2%;
+    background-color:rgba(0,0,0,0.1);
+    color:black;
+    font-weight:450;
+}

@@ -2,12 +2,13 @@ import { Component } from "react";
 import "./style.css";
 import Counter from "../counter";
 import ColorPicker from "../color_picker";
+import Accordion from "../accordion";
 
 class Tabs extends Component {
   constructor(props){
     super(props);
     this.state = {
-      tabs: [<Counter />,<ColorPicker />],
+      tabs: [<Counter />,<ColorPicker />,<Accordion />],
       current_tab: <Counter />
     };
   } 
@@ -27,7 +28,11 @@ class Tabs extends Component {
               })
             }}>Color picker</p>
             
-            <p className="section">Accordion</p>
+            <p className="section"  onClick={() =>{
+              this.setState({
+                current_tab: this.state.tabs[2]
+              })
+            }}>Accordion</p>
         </div>
         {this.state.current_tab}
       </>
