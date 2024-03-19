@@ -1,13 +1,13 @@
 import { Component } from "react";
 import "./style.css";
-import Counter from "../../main_components/counter";
+import Tabs from "../../main_components/tabs";
 
 
 class Main extends Component {
   render(){
     return (
       <>
-        <Counter />
+        <Tabs />
       </>
     );
   }

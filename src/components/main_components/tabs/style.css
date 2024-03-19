@@ -1,0 +1,20 @@
+#sections_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap:10%;
+    width:100%;
+    margin-bottom:70px;
+}
+.section{
+    font-size:20px;
+    font-weight: 700;
+}
+.section:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#current_section{
+    text-decoration: underline;
+}
